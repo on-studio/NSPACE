@@ -1,0 +1,48 @@
+
+
+1)Install arduino software
+
+
+2)Install this library (https://github.com/SFE-Chris/UNO-HIDKeyboard-Library)
+
+3)install Atmel Flip software
+ PC: http://www.atmel.com/tools/flip.aspx  Mac:http://www.macports.org/install.php#pkg 
+
+4)Don't do the hardware setup until the program is uploaded in the on the Arduino uno 
+
+
+5)Download the usb serial.hex (https://github.com/arduino/Arduino/blob/master/hardware/arduino/firmwares/atmegaxxu2/arduino-usbserial/Arduino-usbserial-uno.hex)
+
+
+6)Power your arduino board using usb cable
+
+
+7)Enter into Dfu mode follow the video tutorial(http://forum.arduino.cc/index.php/topic,52447.msg374201.html or http://arduino.cc/en/Hacking/DFUProgramming8U2)
+
+
+8)Upload usb serial firm ware using Flip Programmer.
+
+
+9)After uploading the firmware reset(Power off arduino) the device.
+
+
+10)Now again power your arduino board using usb cable.
+
+
+11)Upload the attached test sketch
+
+
+12)After uploading the sketch to the board dont power off or remove the usb cable on the board
+
+
+13)Now again enter in dfu mode
+
+
+14)This time you will upload the usb keyboard firmware using atmel Flip programmer
+
+
+15)Now when reset the device it will show up as an HID keyboard device
+
+
+
+15)Voila!!!! it's ready to be set up.
