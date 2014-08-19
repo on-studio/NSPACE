@@ -1,4 +1,7 @@
-//
+/* INTERACTIVE ARCHITECTURE WORSHOP */
+/* NSPACE
+/* HAPTIC INTERACTION */
+/* ALEX LEIVA */
 
 #include <MovingAvarageFilter.h>
 
@@ -28,10 +31,8 @@ void setup() {
 void loop() {        
 
 
-// declare input and output variables
-
+// Declare the Analog Pins we're using
  
-
 float input =  analogRead(0);
 
 float input1 =  analogRead(1); 
@@ -42,7 +43,6 @@ float input3 =  analogRead(3);
 
  
 
- 
 float output = 0;
 
 float output1 = 0;
@@ -62,13 +62,13 @@ output2 = movingAvarageFilter2.process(input2);
 output3 = movingAvarageFilter3.process(input3);
 
  
-////  key "d"///////////////////////////////////////////////////
-//dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+//Key "A"
+
 if (output<500) {   // you can change this parameter to fine tune the sensitivity
 
 if (!check){
 
-Keyboard.print("d");         
+Keyboard.print("a");         
 
 Serial.println(output);           
 
@@ -89,14 +89,13 @@ if (output >600) {
 
   }
 
- ////  key "F"///////////////////////////////////////////////////
- 
+// Key "S"
 
 if (output1<500) {   // you can change this parameter to fine tune the sensitivity
 
 if (!check1){         
 
-Keyboard.print("f");         
+Keyboard.print("s");         
 
 Serial.println(output1);           
 
@@ -118,14 +117,13 @@ if (output1 >600) {
   }
  
 
-  ////  key "G"///////////////////////////////////////////////////
+//Key "D"
  
-
 if (output2<500) {   // you can change this parameter to fine tune the sensitivity
 
 if (!check2){         
 
-Keyboard.print("g");         
+Keyboard.print("d");         
 
 Serial.println(output2);           
 
@@ -146,14 +144,14 @@ if (output2 >600) {
 
   }
 
-   ////  key "b"///////////////////////////////////////////////////
-
+//Key "F" 
+//This letter is unused on our model but it can be used for extra features.
 
 if (output3<500) {   // you can change this parameter to fine tune the sensitivity
 
 if (!check3){         
 
-Keyboard.print("b");         
+Keyboard.print("f");         
 
 Serial.println(output3);           
 
