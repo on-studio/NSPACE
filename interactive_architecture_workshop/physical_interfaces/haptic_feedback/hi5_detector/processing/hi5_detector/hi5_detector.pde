@@ -2,21 +2,18 @@
 //*PHYSICAL INTERFACES
 //*HI5 DETECTOR
 
-//We import "Minim" Processing's audio library for the sound effect
+//We import "Minim". Processing's audio library for the sound effect
 import ddf.minim.*;
 
-//Loads an image into a variable of type PImage
-
+//We load an image into a variable of type PImage
 PImage img_hi;
 PImage img_5;
 
 // Sound variables
-
 Minim minim;
 AudioSample slap;
 
 //Setting up the scene
-
 void setup() {
   size(displayWidth, displayHeight);
   frameRate(60);

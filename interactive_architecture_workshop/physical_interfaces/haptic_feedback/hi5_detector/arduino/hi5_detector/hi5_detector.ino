@@ -1,7 +1,7 @@
-//INTERACTIVE ARCHITECTURE WORKSHOP
-//PHYSICAL INTERFACES
-//*HI5 DETECTOR
-
+/* INTERACTIVE ARCHITECTURE WORSHOP */
+/* NSPACE
+/* HAPTIC INTERACTION */
+/* ALEX LEIVA */
 
 // This is the Moving Average Library, install it if you haven't done it yet.
 #include <MovingAvarageFilter.h>
@@ -19,9 +19,9 @@ Serial.begin(115200);
 
 void loop() {        
 
-// declare input and output variables 
+// Declare the Analog Pins we're using
 
-float input =  analogRead(0); // without a real input, looking at the step respons (input at unity, 1)
+float input =  analogRead(0); 
 
 float output = 0; 
 
