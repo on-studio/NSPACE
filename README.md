@@ -8,7 +8,6 @@ Melbourne School of Design
 LIBRARIES 
 ======
 * [Moving Avarage](https://github.com/sebnil/Moving-Avarage-Filter--Arduino-Library-)
-For Arduino Uno
-* [UNO-HIDKeyboard-Library](https://github.com/SFE-Chris/UNO-HIDKeyboard-Library) 
-* [Keyboard HID](http://hunt.net.nz/users/darran/weblog/b3029/)
+* [UNO-HIDKeyboard-Library](https://github.com/SFE-Chris/UNO-HIDKeyboard-Library) (For Arduino Uno)
+* [Keyboard HID](http://hunt.net.nz/users/darran/weblog/b3029/)(For Arduino Uno)
 
