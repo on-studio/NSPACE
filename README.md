@@ -7,5 +7,5 @@ Melbourne School of Design
 
 LIBRARIES 
 ======
-[Moving Avarage](https://github.com/sebnil/Moving-Avarage-Filter--Arduino-Library-)
-[UNO-HIDKeyboard-Library](https://github.com/SFE-Chris/UNO-HIDKeyboard-Library)
+* [Moving Avarage](https://github.com/sebnil/Moving-Avarage-Filter--Arduino-Library-)
+* [UNO-HIDKeyboard-Library](https://github.com/SFE-Chris/UNO-HIDKeyboard-Library)
