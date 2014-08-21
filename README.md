@@ -8,6 +8,12 @@ Melbourne School of Design
 LIBRARIES 
 ======
 * [Moving Avarage](https://github.com/sebnil/Moving-Avarage-Filter--Arduino-Library-)
-* [UNO-HIDKeyboard-Library](https://github.com/SFE-Chris/UNO-HIDKeyboard-Library) (For Arduino Uno)
-* [Keyboard HID](http://hunt.net.nz/users/darran/weblog/b3029/)(For Arduino Uno)
+* [UNO-HIDKeyboard-Library](https://github.com/SFE-Chris/UNO-HIDKeyboard-Library) (For Arduino Uno).
+* 
+Firmware
+* [Usb serial](https://github.com/arduino/Arduino/blob/master/hardware/arduino/firmwares/atmegaxxu2/arduino-usbserial/Arduino-usbserial-uno.hex).
+* [Keyboard serial](http://hunt.net.nz/users/darran/weblog/b3029/)(For Arduino Uno).
+* [Enter into Dfu mode](http://arduino.cc/en/Hacking/DFUProgramming8U2)
+  
+* [Enter into Dfu mode](http://arduino.cc/en/Hacking/DFUProgramming8U2)
 
